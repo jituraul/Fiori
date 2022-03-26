@@ -1,0 +1,33 @@
+<mvc:View controllerName="sam.crud.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+    <Shell id="shell">
+        <App id="app">
+            <pages>
+                <Page id="page" title="{i18n>title}">
+
+                    <Toolbar>
+                        <ToolbarSpacer/>
+                        <SearchField   width="300px"  />
+
+                    </Toolbar>
+                   <content>
+                 <List items="{/VbakSet}" mode="SingleSelectLeft">
+                    <items>
+                    <ObjectListItem intro="{Vbeln}" title="{Vkorg}"  number="{Netwr}" numberState="Success" numberUnit="{Waerk}" />
+                    </items>
+                  </List>
+                   </content>
+                    <footer>
+                        <OverflowToolbar>
+                            <ToolbarSpacer />
+                            <Button text="Save" press=".onSave" />
+                            <Button text="Cancel" press=".onCancel" />
+                        </OverflowToolbar>
+
+                    </footer>
+
+
+                </Page>
+            </pages>
+        </App>
+    </Shell>
+</mvc:View>

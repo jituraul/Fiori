@@ -1,0 +1,26 @@
+<mvc:View
+	controllerName="sam.crud.controller.View2"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+    xmlns:form="sap.ui.layout.form"
+	displayBlock="true"
+	height="100%"
+	busyIndicatorDelay="0"
+>
+<form:SimpleForm  layout="ResponsiveGridLayout">
+  <form:content>
+   <Label text="Vbeln"/>
+   <Input  width="300px" />
+   <Label text="Vbtyp"/>
+   <Input   width="300px" />
+   <Label text="Vkorg"/>
+   <Input  width="300px" />
+   <Label text="Vtweg"/>
+   <Input  width="300px" />
+   <Label text="Spart"/>
+   <Input  width="300px" />
+   <Label text="Kunnr"/>
+   <Input  width="300px" />
+  </form:content> 
+</form:SimpleForm>
+</mvc:View>
