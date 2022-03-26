@@ -20,7 +20,7 @@
                         <OverflowToolbar>
                             <ToolbarSpacer />
                             <Button text="Save" press=".onSave" />
-                            <Button text="Cancel" press=".onCancel" />
+                            <Button text="Canceljitu" press=".onCancel" />
                         </OverflowToolbar>
 
                     </footer>
